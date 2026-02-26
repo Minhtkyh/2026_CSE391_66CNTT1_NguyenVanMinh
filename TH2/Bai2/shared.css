@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #3d0c42;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 60px;
+  position: absolute;
+  width: 100%;
+}
+
+#page-logo a {
+  font-family: "Oleo Script", cursive;
+  font-size: 28px;
+  color: #f8e16c;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+  gap: 24px;
+}
+
+nav a {
+  color: #f8e16c;
+  font-weight: 500;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1a1a1a;
+  padding: 30px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+footer img {
+  width: 30px;
+}
